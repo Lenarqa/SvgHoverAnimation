@@ -31,3 +31,86 @@ img{
     stroke-width: 1px;
     stroke: #31e8ff;
 }
+
+/* twitter */
+.icon.twitter path{
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 0;
+}
+
+.icon.twitter path:hover{
+    animation: twitterAnim 2s linear forwards;
+}
+
+@keyframes twitterAnim{
+    0%{
+        stroke-dashoffset: 0;
+    }
+    40%{
+        stroke-dashoffset: 2000;
+    }
+    80%{
+        stroke-dashoffset: 4000;
+        fill: transparent;
+    }
+    100%{
+        stroke-dashoffset: 4000;
+        fill: #31e8ff;
+    }
+}
+
+
+/* telegram icon */
+.icon.telegram path{
+    stroke-dasharray: 1800;
+    stroke-dashoffset: 0;
+}
+
+.icon.telegram path:hover{
+    animation: telegramAnim 2s linear forwards;
+}
+
+@keyframes telegramAnim{
+    0%{
+        stroke-dashoffset: 0;
+    }
+    40%{
+        stroke-dashoffset: 1800;
+    }
+    80%{
+        stroke-dashoffset: 3600;
+        fill: transparent;
+    }
+    100%{
+        stroke-dashoffset: 3600;
+        fill: #31e8ff;
+    }
+}
+
+/* instagram icon */
+.icon.instagram path{
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 0;
+}
+
+.icon.instagram path:hover{
+    animation: instagramAnim 2s linear forwards;
+}
+
+@keyframes instagramAnim{
+    0%{
+        stroke-dashoffset: 0;
+    }
+    40%{
+        stroke-dashoffset: 2000;
+    }
+    80%{
+        stroke-dashoffset: 4000;
+        fill: transparent;
+    }
+    100%{
+        stroke-dashoffset: 4000;
+        fill: #31e8ff;
+    }
+}
+
